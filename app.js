@@ -22,7 +22,7 @@ app.get('/productos', (req, res) => {
 });
 
 // Puerto
-const PORT = 3000;
+const PORT = 80;
 
 // Iniciar servidor
 app.listen(PORT, '0.0.0.0', () => {
